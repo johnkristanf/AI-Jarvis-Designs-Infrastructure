@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "aws_profile" {
   type    = string
-  default = "johnkristan.torremocha01"
+  default = "geraldvillaceran101"
 }
 
 

@@ -43,6 +43,9 @@ resource "aws_instance" "web_server" {
     volume_type           = "gp3"
     delete_on_termination = true
     encrypted             = true
+    tags = {
+      Name = "AI Jarvis Designs Root Volume"
+    }
   }
 
   tags = {
